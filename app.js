@@ -121,6 +121,7 @@ filterBtns.forEach((btn) => { // iterating through all buttons
   btn.addEventListener('click', (e) => {
 
     const category = e.target.dataset.i;
+    
     // console.log(e.currentTarget.dataset.i); // this can print the value which you had
 
     // this currentTarget will target the button that was clicked
